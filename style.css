@@ -1,1 +1,12 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000;
+    --light-yellow: #F8FFDE;
+    --dust-yellow: #9B590D;
+    --light-orange: #FFC069;
+}
