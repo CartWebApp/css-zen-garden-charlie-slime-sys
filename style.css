@@ -1,4 +1,6 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Oi&display=swap');
+
 
 * {
     box-sizing: border-box;
@@ -6,7 +8,41 @@
 
 :root {
     --black: #000;
+    --white: #FFF;
     --light-yellow: #F8FFDE;
     --dust-yellow: #9B590D;
     --light-orange: #FFC069;
+    --light-dust-yellow: #F3E5AB;
+}
+
+body {
+    height: 3000px;
+    background: linear-gradient(#CAFF95, #FFE389 50%, #F89058 100%);
+    font-family: "Just Another Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.preamble h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--light-orange);
+    font-family: "Oi", serif;
+    font-weight: 100;
+    font-style: italic;
+    color: var(--dust-yellow);
+    padding: 1rem;
+    font-optical-sizing: auto;
+}
+
+.preamble p {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: var(--light-yellow);
+    font-size: 20px;
+    color: var(--dust-yellow);
+    text-align: left;
+    margin-top: -1%;
 }
