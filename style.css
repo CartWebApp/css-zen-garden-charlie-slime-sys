@@ -1,5 +1,6 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 @import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
 
 
 * {
@@ -13,9 +14,15 @@
     --dust-yellow: #9B590D;
     --light-orange: #FFC069;
     --light-dust-yellow: #F3E5AB;
+<<<<<<< HEAD
     --light-green: #D6FFC4;
     --dark-green: #74876B;
     --mid-green: #D6FFC4;
+=======
+    --dark-dusty-green: #74876B;
+    --dusty-green: #8BAD7D;
+    --light-dusty-green: #D6FFC4;
+>>>>>>> c0660ca1395d194a71bb1c932ff4466029fd3cff
 }
 
 body {
@@ -59,5 +66,31 @@ body {
     color: var(--dust-yellow);
     text-align: left;
     margin-top: -1%;
+<<<<<<< HEAD
 
+=======
+    margin-left: 20%;
+}
+
+.summary {
+
+}
+
+header {
+    background-color: var(--light-dusty-green);
+    border: var(--dusty-green);
+    border-radius: 1rem;
+    text-align: center;
+    width: 30%;
+    justify-content: center;
+    margin-left: calc(100% - 65%);
+    height: 150px;
+    align-content: center;
+}
+
+.intro h1 {
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-style: normal;
+>>>>>>> c0660ca1395d194a71bb1c932ff4466029fd3cff
 }
